@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/scss/bootstrap';
+// Import Angular Material theming
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+/* We can add any custom styles below this line */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* styles.scss */
+.snack-bar-success {
+    background-color: #4caf50; /* Green */
+    color: white;
+  }
+  
+  .snack-bar-error {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  

@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.list-group {
+    max-height: 600px;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 10vh;
+        border-radius: 10px;
+        background-color: #f3f6f9;
+      }
+    
+      &::-webkit-scrollbar-track {
+        border-radius: 10px;
+      }
+    
+      &::-webkit-scrollbar-thumb {
+        background-color: #aaaaaa;
+        border-radius: 10px;
+      }
+}

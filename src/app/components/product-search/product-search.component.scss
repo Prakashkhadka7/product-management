@@ -1,0 +1,28 @@
+.form-group {
+    margin-top: 50px;
+  }
+  
+  .custom-input {
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .custom-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  label {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
