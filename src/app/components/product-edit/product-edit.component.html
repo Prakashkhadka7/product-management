@@ -1,4 +1,12 @@
-<h2 class="mb-4">{{ productId ? 'Edit' : 'Add' }} Product</h2>
+<div class=" d-flex w-100 justify-content-between align-items-center" >
+    <div class="">
+        <h2 class="mb-4">{{ productId ? 'Edit' : 'Add' }} Product</h2>
+    </div>
+    <div class="">
+        <a routerLink="/products" class="btn btn-secondary">Back to List</a>
+    </div>
+
+</div>
 <form [formGroup]="productForm" (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
     <div class="mb-3">
         <label for="name" class="form-label">Name:</label>
